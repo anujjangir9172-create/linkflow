@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { LogIn, UserPlus, Play, Sparkles, Menu, X } from 'lucide-react';
 import BoomerangVideoBg from './BoomerangVideoBg';
 
-const BG_VIDEO = '/hero-loop.mp4';
+const BG_VIDEO = `${import.meta.env.BASE_URL}hero-loop.mp4`;
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
